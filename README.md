@@ -1,17 +1,17 @@
 # lardycake
 
-A website written in noir. 
+A playground for fiddling with SCMs. 
 
 ## Usage
 
 ```bash
 lein deps
-lein run
+lein ring server
 ```
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Peter Stillman
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the GPLv2.
 
