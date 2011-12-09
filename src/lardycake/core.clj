@@ -6,6 +6,8 @@
             [lardycake.models.git-repo]
             [clj-json.core :as json]))
 
+(def *scm-base* "/Users/joni/Scratch/clojure/scm-base")
+
 (defn json-response [data & [status]]
   {:status (or status 200)
    :headers {"Content-Type" "application/json"}
